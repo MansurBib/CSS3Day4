@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    background-color: #24252a;
+}
+
+li,
+a,
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: bisque;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.4s;
+}
+
+.nav-links li a:hover {
+    background-color: blue;
+}
+
+button {
+    padding: 9x 25px;
+    background-color: skyblue(0, 136, 169, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+button:hover {
+    background-color: blue;
+}
