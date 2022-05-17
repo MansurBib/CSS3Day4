@@ -14,9 +14,9 @@ body{
 
 .pic{
     padding: 5px;
-    background-color: blue;
     background-size:cover;
     background-position: center;
+    color: rgb(226, 65, 65);
 
     
 }
